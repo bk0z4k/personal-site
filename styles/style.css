@@ -1,0 +1,128 @@
+body {
+    color: EEEEEE;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 0;
+    color: #393E46;
+}
+
+h1 {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero-description {
+    margin: 0;
+}
+
+.hero-content {
+    background-color: #222831;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt="Bilal Kozak"] {
+    margin-top: 5rem;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #222831;
+    font-size: 2rem;
+}
+
+.box {
+    margin-top: 3rem;
+    background-color: #00ADB5;
+    height: 5px;
+    width: 5px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.techonlogist {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.about-description {
+    margin-top: 0;
+    width: 33%;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 3rem;
+}
+
+.contact {
+    margin-top: 3rem;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+img[alt="swiss_army_knife"] {
+    width: 250px;
+    border-radius: 10%;
+}
+
+.btn {
+    margin-top: 3rem;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 3rem;
+    height: 100px;
+    background-color: #222831;
+}
+
+.footer-content {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-content a {
+    color: #EEEEEE;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+
